@@ -5,131 +5,140 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Renovatie &amp; Verbouwing Leiden | Kranghand Design</title>
   <meta name="description" content="Uw woning renoveren in Leiden? Kranghand Design verzorgt complete binnenrenovaties, van interieurontwerp en materiaalselectie tot uitvoering en afwerking.">
-  <link rel="icon" type="image/svg+xml" href="https://kranghanddesign.com/favicon.svg">
   <meta name="robots" content="noindex,nofollow"><!-- Preview only: remove on publication -->
-  <!-- For production: <link rel="canonical" href="https://kranghanddesign.com/nl/renovatie-leiden"> -->
+  <link rel="icon" type="image/svg+xml" href="https://kranghanddesign.com/favicon.svg">
   <style>
-    :root{--ink:#272724;--muted:#706f69;--cream:#f8f6f1;--paper:#fff;--stone:#e8e5de;--gold:#a68b6d;--deep:#333934;--radius:2px;--container:1240px}
+    :root{--ink:#212121;--muted:#666;--soft:#f5f3ee;--sand:#ece8e1;--deep:#171717;--deep-2:#252525;--line:#dbd7cf;--gold:#8b8274;--white:#fff;--container:1240px}
     *,*::before,*::after{box-sizing:border-box}
-    html{scroll-behavior:smooth;scroll-padding-top:80px}
-    body{margin:0;color:var(--ink);background:var(--paper);font:400 16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;-webkit-font-smoothing:antialiased}
-    img{max-width:100%;display:block}a{color:inherit}button,input{font:inherit}
+    html{scroll-behavior:smooth;scroll-padding-top:84px}
+    body{margin:0;background:#fff;color:var(--ink);font:400 16px/1.72 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+    img{display:block;max-width:100%}a{color:inherit}button,input,textarea{font:inherit}
     .wrap{width:min(var(--container),calc(100% - 72px));margin:auto}
-    .eyebrow{font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:650;color:var(--gold)}
+    .eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:650;color:var(--gold)}
     h1,h2,h3,p{margin-top:0}h1,h2,.serif{font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.035em}
-    h1{font-size:clamp(45px,5.2vw,83px);line-height:1.06;margin:20px 0 25px}
-    h2{font-size:clamp(34px,3.8vw,56px);line-height:1.14;margin:14px 0 22px}
-    h3{font-size:21px;line-height:1.3;margin:0 0 12px;font-weight:520}
-    p{max-width:68ch} .lead{font-size:19px;line-height:1.72;color:#444742}
+    h1{font-size:clamp(40px,4.4vw,68px);line-height:1.06;margin:18px 0 20px;max-width:10ch}
+    h2{font-size:clamp(32px,3.5vw,54px);line-height:1.12;margin:14px 0 18px}
+    h3{font-size:21px;line-height:1.32;margin:0 0 10px;font-weight:560}
+    p{max-width:70ch}.lead{font-size:18px;line-height:1.72;color:#444}
     .muted{color:var(--muted)}
-    .btn{display:inline-flex;align-items:center;gap:17px;padding:15px 22px;background:var(--deep);border:1px solid var(--deep);color:#fff;text-decoration:none;font-size:12px;letter-spacing:.07em;font-weight:600;transition:transform .2s,background .2s;white-space:nowrap}
-    .btn:hover,.btn:focus-visible{background:#526052;transform:translateY(-2px)}
-    .btn-ghost{color:var(--ink);background:transparent;border-color:#b6b3ad}.btn-ghost:hover{color:#fff}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:14px;padding:15px 22px;background:var(--deep);border:1px solid var(--deep);color:#fff;text-decoration:none;font-size:12px;letter-spacing:.08em;font-weight:650;transition:transform .22s ease,background .22s ease,border-color .22s ease;white-space:nowrap;cursor:pointer}
+    .btn:hover,.btn:focus-visible{background:#3b3b3b;border-color:#3b3b3b;transform:translateY(-2px)}
+    .btn-ghost{background:transparent;color:var(--ink);border-color:#bdb7ae}.btn-ghost:hover,.btn-ghost:focus-visible{background:var(--deep);color:#fff;border-color:var(--deep)}
     .line-link{text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:3px;font-size:13px;font-weight:650;letter-spacing:.02em}
-    header{height:80px;position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);backdrop-filter:blur(16px);border-bottom:1px solid #ebe9e3}
-    .nav{height:100%;display:flex;justify-content:space-between;align-items:center;gap:26px}
-    .brand{font-size:18px;letter-spacing:.2em;white-space:nowrap;font-weight:500;text-decoration:none;line-height:1.1}.brand span{font-size:9px;letter-spacing:.36em;display:block;margin-top:7px;color:#777}
-    .navlinks{display:flex;align-items:center;gap:32px}.navlinks a{font-size:12px;text-decoration:none;white-space:nowrap}
+    .preview{background:#f6edd9;color:#4f4229;text-align:center;font-size:11px;letter-spacing:.03em;padding:7px 16px}
+
+    header{height:84px;position:sticky;top:0;z-index:25;background:rgba(255,255,255,.96);backdrop-filter:blur(18px);border-bottom:1px solid #ebe9e3}
+    .nav{height:100%;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:inline-flex;align-items:center;gap:14px;text-decoration:none;white-space:nowrap}
+    .brand-symbol{width:40px;height:40px;display:grid;place-items:center;flex-shrink:0}
+    .brand-symbol img{width:100%;height:100%;object-fit:contain}
+    .brand-copy{display:block;font-size:14px;letter-spacing:.19em;font-weight:520;line-height:1.05}
+    .brand-copy small{display:block;font-size:9px;letter-spacing:.34em;color:#777;margin-top:7px}
+    .navlinks{display:flex;align-items:center;gap:24px}
+    .navlinks a{font-size:12px;text-decoration:none;white-space:nowrap}
     .nav .btn{padding:12px 18px}
-    .hero{background:var(--cream);display:grid;grid-template-columns:48% 52%;min-height:600px}
-    .hero-copy{align-self:center;padding:60px 7vw 65px max(36px,calc((100vw - var(--container))/2))}
-    .hero-copy p{max-width:500px}.hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:24px;margin-top:30px}
-    .hero-img{position:relative;min-height:600px;background:#d7d4cf}
-    .hero-img img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover}
-    .hero-img:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.32),transparent 30%)}
-    .photo-credit{position:absolute;bottom:22px;right:24px;z-index:1;color:#fff;font-size:11px;letter-spacing:.1em}
-    .facts{border-bottom:1px solid var(--stone)}.fact-inner{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
-    .fact{display:flex;align-items:center;gap:15px;justify-content:center;padding:24px 20px;border-right:1px solid var(--stone);font-size:13px;font-weight:570}
-    .fact:last-child{border-right:0}.mark{width:24px;height:24px;border:1px solid var(--gold);border-radius:100%;display:grid;place-items:center;color:var(--gold);flex-shrink:0}
-    section{padding:108px 0}.split{display:grid;grid-template-columns:1fr 1fr;gap:9vw;align-items:center}
+
+    .hero{background:var(--soft);display:grid;grid-template-columns:46% 54%;min-height:670px}
+    .hero-copy{align-self:center;padding:56px 6vw 64px max(36px,calc((100vw - var(--container))/2))}
+    .hero-copy p{max-width:500px}.hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:16px;margin-top:30px}
+    .google-link{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-size:13px;font-weight:600;color:#3c3c3c;letter-spacing:.01em}
+    .google-link .g{font-size:18px;font-weight:800;font-family:Arial,sans-serif;background:conic-gradient(#4285f4 0 25%,#34a853 25% 48%,#fbbc05 48% 67%,#ea4335 67% 85%,#4285f4 85%);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .google-link .stars{letter-spacing:1px;color:#c49024;font-size:12px}
+    .hero-img{position:relative;min-height:670px;background:#d7d4cf;overflow:hidden}
+    .hero-slider,.hero-slide{position:absolute;inset:0}
+    .hero-slide{opacity:0;visibility:hidden;transition:opacity .9s ease,visibility .9s ease}
+    .hero-slide.active{opacity:1;visibility:visible}
+    .hero-slide img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+    .hero-img::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.35),transparent 36%)}
+    .photo-credit{position:absolute;left:28px;bottom:30px;z-index:3;color:#fff;font-size:11px;letter-spacing:.12em}
+    .slider-status{position:absolute;right:28px;bottom:92px;z-index:4;color:#fff;font-size:12px;font-variant-numeric:tabular-nums;text-shadow:0 1px 6px rgba(0,0,0,.4)}
+    .slider-controls{position:absolute;right:28px;bottom:22px;display:flex;gap:10px;z-index:4}
+    .slider-controls button{width:46px;height:46px;border:1px solid rgba(255,255,255,.75);border-radius:50%;background:#fff;color:#222;display:grid;place-items:center;cursor:pointer;transition:transform .2s ease,background .2s ease}
+    .slider-controls button:hover,.slider-controls button:focus-visible{background:#f0ece5;transform:scale(1.05)}
+    .slider-controls svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+
+    .facts{border-bottom:1px solid var(--line)}
+    .fact-inner{display:grid;grid-template-columns:repeat(3,1fr)}
+    .fact{display:flex;align-items:center;gap:15px;justify-content:center;padding:24px 20px;border-right:1px solid var(--line);font-size:13px;font-weight:570}
+    .fact:last-child{border-right:0}
+    .mark{width:24px;height:24px;border:1px solid var(--gold);border-radius:100%;display:grid;place-items:center;color:var(--gold);flex-shrink:0}
+
+    section{padding:104px 0}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:9vw;align-items:center}
     .statement .text p{color:#5a5d56}.statement .media{aspect-ratio:1/.92;overflow:hidden;background:#eee}
     .statement .media img{width:100%;height:100%;object-fit:cover}
-    .sectionhead{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:40px}.sectionhead h2{max-width:650px;margin-bottom:0}
-    .services{background:var(--cream)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#dcd9d1;border:1px solid #dcd9d1}
-    .service{padding:38px 32px 32px;background:var(--cream);min-height:240px;display:flex;flex-direction:column;gap:20px}.service .n{font-size:12px;color:var(--gold);font-weight:700}.service p{color:var(--muted);font-size:14px;margin:0}
-    .portfolio{padding-bottom:120px}.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-    .project{min-width:0}.project img{width:100%;aspect-ratio:4/3;object-fit:cover;background:#ddd;transition:transform .35s}
-    .project .imgcrop{overflow:hidden}.project:hover img{transform:scale(1.025)}
-    .project h3{font-family:Georgia,serif;font-size:26px;font-weight:400;letter-spacing:-.02em;margin:17px 0 6px}
-    .project small{font-size:12px;color:var(--muted);display:block;margin-bottom:14px}.project a{text-decoration:none}
-    .process{background:#323a35;color:#f7f5f0}.process .eyebrow{color:#c7b59b}.process .muted{color:#c1c6c0}
-    .steps{display:grid;grid-template-columns:repeat(5,1fr);gap:24px;margin-top:45px}.step{border-top:1px solid #6c766f;padding-top:20px}
-    .step .n{font:400 32px Georgia,serif;color:#c7b59b}.step h3{font-size:17px;line-height:1.4;margin-top:15px}.step p{font-size:13px;line-height:1.75;color:#cbd0c9}
+    .sectionhead{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:40px}.sectionhead h2{max-width:680px;margin-bottom:0}
+    .services{background:var(--soft)}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#dcd9d1;border:1px solid #dcd9d1}
+    .service{padding:38px 32px 32px;background:var(--soft);min-height:240px;display:flex;flex-direction:column;gap:18px}.service .n{font-size:12px;color:var(--gold);font-weight:700}.service p{color:var(--muted);font-size:14px;margin:0}
+    .projects{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+    .project img{width:100%;aspect-ratio:4/3;object-fit:cover;background:#ddd;transition:transform .35s}.project .imgcrop{overflow:hidden}.project:hover img{transform:scale(1.025)}.project h3{font-family:Georgia,serif;font-size:26px;font-weight:400;letter-spacing:-.02em;margin:17px 0 6px}.project small{font-size:12px;color:var(--muted);display:block;margin-bottom:14px}.project a{text-decoration:none}
+
+    .ba-section{background:#fff}
+    .ba-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:64px;align-items:center}
+    .ba-visual{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .ba-card{position:relative;background:#f0eeea;overflow:hidden}
+    .ba-card img{width:100%;aspect-ratio:4/5;object-fit:cover}
+    .ba-label{position:absolute;left:14px;top:14px;background:rgba(255,255,255,.92);padding:7px 12px;font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:650}
+
+    .process{background:#1d1d1d;color:#f7f5f0}.process .eyebrow{color:#cbbca5}.process .muted{color:#c2c2c2}
+    .steps{display:grid;grid-template-columns:repeat(5,1fr);gap:24px;margin-top:45px}.step{border-top:1px solid #666;padding-top:20px}.step .n{font:400 32px Georgia,serif;color:#d0bfaa}.step h3{font-size:17px;line-height:1.4;margin-top:15px}.step p{font-size:13px;line-height:1.75;color:#d0d0d0}
+
     .reason-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px}
-    .reasons{display:grid;grid-template-columns:1fr 1fr;gap:34px 45px;margin-top:25px}.reason{border-top:1px solid var(--stone);padding-top:18px}.reason h3{font-size:17px}.reason p{font-size:14px;color:var(--muted)}
-    .quote-box{background:var(--cream);padding:48px;align-self:center}.quote-box p{font:400 clamp(22px,2.2vw,31px)/1.4 Georgia,serif;letter-spacing:-.02em}.quote-box small{font-size:13px;color:var(--muted)}
-    .faq{background:var(--cream)}.faq-grid{display:grid;grid-template-columns:1fr 1.5fr;gap:9vw}
+    .reasons{display:grid;grid-template-columns:1fr 1fr;gap:34px 45px;margin-top:25px}.reason{border-top:1px solid var(--line);padding-top:18px}.reason h3{font-size:17px}.reason p{font-size:14px;color:var(--muted)}
+    .quote-box{background:var(--soft);padding:48px;align-self:center}.quote-box p{font:400 clamp(22px,2.2vw,31px)/1.4 Georgia,serif;letter-spacing:-.02em}.quote-box small{font-size:13px;color:var(--muted)}
+
+    .reviews{background:var(--soft)}
+    .reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+    .review-card{background:#fff;border:1px solid var(--line);padding:28px;display:flex;flex-direction:column;gap:16px}
+    .review-card .stars{font-size:14px;letter-spacing:2px;color:#c49024}
+    .review-card p{font-size:14px;color:#535353;flex:1;margin-bottom:0}
+    .review-card small{font-size:12px;color:var(--muted)}
+
+    .faq{background:var(--soft)}.faq-grid{display:grid;grid-template-columns:1fr 1.45fr;gap:9vw}
     details{border-bottom:1px solid #d9d6cf;padding:20px 0}.faq details:first-child{border-top:1px solid #d9d6cf}
     summary{cursor:pointer;list-style:none;font-size:16px;font-weight:580;display:flex;gap:20px;align-items:center;justify-content:space-between}
     summary::-webkit-details-marker{display:none}summary:after{content:'+';font-size:26px;font-weight:300;color:#8b7a63}details[open] summary:after{content:'−'}details p{font-size:14px;color:var(--muted);margin:13px 34px 6px 0}
-    .cta{padding:95px 0;background:#dedbd3}.cta-inner{display:flex;justify-content:space-between;align-items:center;gap:40px}.cta h2{max-width:760px}.cta p{margin-bottom:0}
-    footer{background:#262c29;color:#eaece7;padding:35px 0}.foot{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.foot a{font-size:13px;text-decoration:none}.foot p{font-size:11px;color:#b4bcb4;margin:8px 0 0}
-    .preview{background:#f6edd9;color:#4f4229;text-align:center;font-size:11px;letter-spacing:.03em;padding:7px 16px}
-    @media(max-width:1100px){.navlinks{gap:15px}.hero-copy{padding-left:40px;padding-right:30px}.steps{grid-template-columns:repeat(3,1fr)}}
-    @media(max-width:820px){.wrap{width:min(100% - 40px,var(--container))}.navlinks{display:none}.hero{display:flex;flex-direction:column-reverse}.hero-img{min-height:350px;height:45vh}.hero-copy{padding:56px 26px}.fact-inner{grid-template-columns:1fr}.fact{justify-content:flex-start;padding:16px 0;border-right:0;border-bottom:1px solid var(--stone)}.fact:last-child{border-bottom:0}.split,.reason-grid,.faq-grid{grid-template-columns:1fr;gap:38px}.cards,.projects{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.sectionhead{display:block}.sectionhead a{display:inline-block;margin-top:15px}.cta-inner{display:block}.cta-inner .btn{margin-top:30px}section{padding:75px 0}}
-    @media(max-width:540px){.nav{gap:12px}.brand{font-size:13px}.nav .btn{padding:9px 10px;font-size:10px}.hero-img{min-height:290px}.cards,.projects,.steps,.reasons{grid-template-columns:1fr}.service{min-height:0}.quote-box{padding:30px}.hero-actions .btn{width:100%;justify-content:center}.cta{padding:65px 0}}
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::after,*::before{transition:none!important}}
-    /* Reconciled with the monochrome identity of the main studio site */
-    :root{--ink:#242424;--muted:#6b6b6b;--cream:#f6f5f3;--paper:#fff;--stone:#e4e3e1;--gold:#77736d;--deep:#292929}
-    .eyebrow{color:#77736d}
-    .btn{border-color:#292929;background:#292929}.btn:hover,.btn:focus-visible{background:#4a4a4a}
-    .btn-ghost{background:transparent;color:#292929;border-color:#aaa}
-    .line-link{border-color:#77736d}
-    .process{background:#242424}.process .eyebrow{color:#c8c8c8}.process .muted{color:#d5d5d5}
-    .process .step .n{color:#fff}
-    .service .n{color:#77736d}
-    .cta{background:#efeeeb}
-    .quote-box{background:#f6f5f3}
-    footer{background:#202020}
-    .brand{display:inline-flex;align-items:center;gap:12px;font-size:15px;letter-spacing:.16em}
-    .brand span.brand-copy{display:block;font-size:15px;letter-spacing:.17em;color:inherit;font-weight:500}
-    .brand-copy small{font-size:9px;display:block;letter-spacing:.3em;margin-top:6px;color:#777}
-    .brand-symbol{position:relative;display:grid;place-items:center;width:39px;height:39px;flex-shrink:0;border:1px solid #b9b8b4;background:#f8f8f8}
-    .brand-symbol .fallback-monogram{color:#303030;font-family:Georgia,serif;font-size:15px;font-weight:700;letter-spacing:-.23em;padding-right:4px}
-    .brand-symbol img{position:absolute;inset:2px;width:calc(100% - 4px);height:calc(100% - 4px);object-fit:contain;background:#f8f8f8}
-    .google-review{display:inline-flex;align-items:center;gap:8px;border:1px solid #e4e4e4;padding:6px 10px;text-decoration:none;background:#fff;color:#292929;font-size:12px;white-space:nowrap}
-    .google-g{font-size:17px;font-weight:750;font-family:Arial,sans-serif;background:conic-gradient(#4285f4 0 25%,#34a853 25% 48%,#fbbc05 48% 67%,#ea4335 67% 85%,#4285f4 85%);-webkit-background-clip:text;background-clip:text;color:transparent}
-    .rating-stars{color:#c79526;letter-spacing:1px;font-size:13px}
-    .google-review .rating-count{color:#646464;font-size:11px}
-    .nav{gap:15px}.navlinks{gap:20px}
-    .hero-img{overflow:hidden}
-    .hero-img:after{pointer-events:none;z-index:1}
-    .hero-slider{position:absolute;inset:0}
-    .hero-slide{position:absolute;inset:0;opacity:0;visibility:hidden;transition:opacity 1s ease,visibility 1s ease}
-    .hero-slide.active{opacity:1;visibility:visible}
-    .hero-slide img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-    .photo-credit{left:28px;right:auto;bottom:35px;z-index:2;font-size:11px;text-shadow:0 1px 6px #222}
-    .slider-controls{position:absolute;right:28px;bottom:24px;z-index:3;display:flex;gap:9px}
-    .slider-controls button{display:grid;place-items:center;width:46px;height:46px;border:1px solid #fff9;border-radius:50%;background:#fff;color:#242424;cursor:pointer;transition:background .2s,transform .2s}
-    .slider-controls button:hover,.slider-controls button:focus-visible{background:#f1eee8;transform:scale(1.06)}
-    .slider-controls button svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-    .slider-status{position:absolute;bottom:94px;right:29px;color:#fff;font-size:12px;font-variant-numeric:tabular-nums;z-index:3;text-shadow:0 1px 4px #444}
-    .cta.contact-section{padding:90px 0 100px;background:#f6f5f3}
-    .contact-layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:58px;align-items:start}
-    .contact-intro h2{max-width:800px}
-    .contact-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:28px}
-    .field{display:flex;flex-direction:column;gap:7px}
-    .field.wide{grid-column:1/-1}
-    .field label{font-size:13px;font-weight:600}
-    .field input,.field textarea{width:100%;border:1px solid #c5c5c3;border-radius:0;background:#fff;color:#252525;padding:12px 13px;font:inherit;outline-offset:3px}
-    .field input:focus,.field textarea:focus{border-color:#555}
-    .field textarea{min-height:132px;resize:vertical}
-    .privacy-line{display:flex;align-items:flex-start;gap:10px;grid-column:1/-1;font-size:12px;line-height:1.5;color:#616161}
-    .privacy-line input{margin-top:4px}
-    .form-actions{display:flex;align-items:center;flex-wrap:wrap;gap:16px;grid-column:1/-1}
-    .demo-notice{font-size:13px;color:#625d51;background:#fff;border-left:3px solid #a09c92;padding:12px 14px;grid-column:1/-1}
-    .map-panel{background:#fff;border:1px solid #dedcda}
-    .map-frame{aspect-ratio:1/1;min-height:330px;background:#eae9e6;position:relative;display:grid;place-items:center;overflow:hidden}
-    .map-frame iframe{position:absolute;inset:0;border:0;width:100%;height:100%}
-    .map-consent{text-align:center;padding:24px;max-width:330px}
-    .map-consent p{font-size:14px;color:#5c5c5c}
-    .map-consent .map-icon{width:34px;height:34px;margin:0 auto 15px}
-    .map-info{padding:24px}.map-info h3{margin-bottom:8px}.map-info p{font-size:14px;color:#626262;margin-bottom:12px}
-    .map-info a{font-size:13px}
-    @media(max-width:1100px){.navlinks{display:none}}
-    @media(max-width:820px){.contact-layout{grid-template-columns:1fr;gap:30px}.map-frame{min-height:290px;aspect-ratio:16/9}.cta.contact-section{padding:70px 0}.google-review{margin-left:auto}}
-    @media(max-width:540px){.contact-form{grid-template-columns:1fr}.field{grid-column:1/-1}.slider-controls{right:18px;bottom:14px}.slider-status{bottom:82px;right:18px}.photo-credit{left:16px;bottom:24px;max-width:190px;line-height:1.5}.map-frame{aspect-ratio:4/3}.google-review .rating-count{display:none}.google-review{padding:6px;gap:4px}.brand-copy small{display:none}.brand span.brand-copy{font-size:11px;letter-spacing:.06em}.brand-symbol{height:32px;width:32px}}
-    @media(prefers-reduced-motion:reduce){.hero-slide{transition:none}}
+
+    .contact-dark{background:var(--deep);color:#f6f4ef;padding:96px 0}
+    .contact-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:stretch}
+    .contact-grid h2{max-width:760px}.contact-grid p{color:#cac7c1}
+    .contact-panel{background:#202020;border:1px solid rgba(255,255,255,.08);padding:36px}
+    .contact-form{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:20px}
+    .field{display:flex;flex-direction:column;gap:7px}.field.wide{grid-column:1/-1}.field label{font-size:13px;font-weight:600;color:#f6f4ef}.field input,.field textarea{width:100%;padding:12px 13px;border:1px solid #4a4a4a;background:#111;color:#fff;outline-offset:3px}.field textarea{min-height:132px;resize:vertical}.field input:focus,.field textarea:focus{border-color:#adadad}
+    .privacy-line{display:flex;align-items:flex-start;gap:10px;grid-column:1/-1;font-size:12px;line-height:1.5;color:#ccc}.privacy-line input{margin-top:4px}
+    .form-actions{display:flex;flex-wrap:wrap;gap:16px;grid-column:1/-1;align-items:center}
+    .demo-notice{font-size:13px;color:#dfd8ca;background:#282828;border-left:3px solid #9a8d79;padding:12px 14px;grid-column:1/-1}
+    .nadia-photo{position:relative;min-height:100%;overflow:hidden;background:#0f0f0f}
+    .nadia-photo img{width:100%;height:100%;object-fit:cover;filter:saturate(.96) contrast(1.02)}
+    .nadia-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.66),rgba(0,0,0,.16) 45%,rgba(0,0,0,.35))}
+    .nadia-badge{position:absolute;left:28px;right:28px;bottom:26px;z-index:2;color:#fff}
+    .nadia-badge small{display:block;font-size:11px;letter-spacing:.22em;color:#d7cabb;text-transform:uppercase;margin-bottom:8px}
+    .nadia-badge strong{display:block;font-size:26px;font-family:Georgia,serif;font-weight:400;letter-spacing:-.02em;line-height:1.15}
+    .nadia-badge span{display:block;margin-top:10px;color:#e8e1d5;font-size:14px;max-width:34ch}
+
+    .full-map{padding:0;background:#e7e3dc}
+    .map-hero{width:100%;height:470px;position:relative;overflow:hidden}
+    .map-hero iframe{width:100%;height:100%;border:0;filter:grayscale(100%) contrast(1.05) brightness(.95)}
+    .map-overlay{position:absolute;inset:auto 30px 28px auto;background:rgba(255,255,255,.88);padding:14px 16px;font-size:13px;max-width:300px;backdrop-filter:blur(6px)}
+
+    footer{background:#141414;color:#e9e6df;padding:64px 0 32px}
+    .foot-grid{display:grid;grid-template-columns:1.15fr 1fr 1fr 1fr;gap:32px;align-items:start}
+    footer .brand-copy small{color:#999}.foot-col h3{font-family:inherit;font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:#b8ab98;margin:0 0 18px}.foot-col a, .foot-col p{font-size:14px;text-decoration:none;color:#e9e6df;margin:0 0 10px}.foot-col p.muted, .subfooter{color:#a3a3a3}
+    .socials{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}.socials a{display:inline-flex;align-items:center;justify-content:center;min-width:36px;height:36px;padding:0 12px;border:1px solid rgba(255,255,255,.14);font-size:12px;letter-spacing:.08em}
+    /* Footer: vertical site menus and centered icon-only social links */
+    .foot-col > a:not(.brand){display:block;width:fit-content;max-width:100%;overflow-wrap:anywhere}
+    .foot-col > a:not(.brand):hover,.foot-col > a:not(.brand):focus-visible{text-decoration:underline;text-underline-offset:4px}
+    .socials-centered{display:flex;align-items:center;justify-content:center;gap:20px;padding:30px 0 6px}
+    .socials-centered a{width:42px;height:42px;display:grid;place-items:center;color:#eee;border:1px solid rgba(255,255,255,.22);border-radius:50%;transition:color .2s ease,border-color .2s ease,background .2s ease}
+    .socials-centered a:hover,.socials-centered a:focus-visible{color:#111;background:#eee;border-color:#eee}
+    .socials-centered svg{width:19px;height:19px}
+    .subfooter{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;border-top:1px solid rgba(255,255,255,.08);margin-top:30px;padding-top:18px;font-size:12px}
+
+    @media(max-width:1100px){.navlinks{gap:14px}.steps{grid-template-columns:repeat(3,1fr)}.contact-grid,.ba-grid,.reason-grid,.faq-grid{grid-template-columns:1fr}.projects,.reviews-grid{grid-template-columns:repeat(2,1fr)}.foot-grid{grid-template-columns:1fr 1fr}.contact-grid{gap:28px}.nadia-photo{min-height:520px}}
+    @media(max-width:820px){.wrap{width:min(100% - 40px,var(--container))}.navlinks{display:none}.hero{display:flex;flex-direction:column-reverse}.hero-copy{padding:54px 26px}.hero-img{min-height:360px;height:46vh}.fact-inner{grid-template-columns:1fr}.fact{justify-content:flex-start;padding:16px 0;border-right:0;border-bottom:1px solid var(--line)}.fact:last-child{border-bottom:0}.split{grid-template-columns:1fr;gap:36px}.cards,.projects,.reviews-grid{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.sectionhead{display:block}.sectionhead a{display:inline-block;margin-top:14px}.slider-controls{right:18px;bottom:16px}.slider-status{right:18px;bottom:84px}.photo-credit{left:16px;bottom:24px}.map-hero{height:380px}}
+    @media(max-width:540px){h1{max-width:none}.brand-copy{font-size:11px;letter-spacing:.09em}.brand-copy small{display:none}.brand-symbol{width:32px;height:32px}.nav{gap:10px}.nav .btn{padding:9px 10px;font-size:10px}.hero-img{min-height:300px}.hero-actions .btn,.hero-actions .btn-ghost{width:100%}.cards,.projects,.steps,.reasons,.reviews-grid,.foot-grid,.contact-form,.ba-visual{grid-template-columns:1fr}.service{min-height:0}.quote-box,.contact-panel{padding:28px}.contact-grid{grid-template-columns:1fr}.nadia-photo{min-height:420px}.map-overlay{left:14px;right:14px;bottom:14px;max-width:none}.socials a{padding:0 10px}.full-map .map-hero{height:320px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
   </style>
   <script type="application/ld+json">
   {
@@ -145,40 +154,57 @@
   </script>
 </head>
 <body>
-  <div class="preview">ONTWERPVERSIE · Dit is een zelfstandig HTML-prototype, nog niet gepubliceerd op de website.</div>
   <header>
     <div class="wrap nav">
-      <a class="brand" href="https://kranghanddesign.com/nl/" aria-label="Kranghand Design, home"><span class="brand-symbol"><span class="fallback-monogram" aria-hidden="true">DD</span><img src="https://kranghanddesign.com/favicon.svg" alt="" onerror="this.remove()"></span><span class="brand-copy">KRANGHAND DESIGN<small>INTERIEURONTWERP · LEIDEN</small></span></a>
+      <a class="brand" href="https://kranghanddesign.com/nl/" aria-label="Kranghand Design, home">
+        <span class="brand-symbol"><img src="https://kranghanddesign.com/favicon.svg" alt="Kranghand Design logo"></span>
+        <span class="brand-copy">KRANGHAND DESIGN<small>INTERIEURONTWERP · LEIDEN</small></span>
+      </a>
       <nav class="navlinks" aria-label="Pagina navigatie">
-        <a href="#diensten">Onze aanpak</a><a href="#projecten">Projecten</a><a href="#werkwijze">Werkwijze</a><a href="#vragen">Veelgestelde vragen</a>
+        <a href="#diensten">Onze aanpak</a>
+        <a href="#projecten">Projecten</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#vragen">Veelgestelde vragen</a>
       </nav>
-      <a class="google-review" href="https://www.google.com/maps/search/?api=1&amp;query=Kranghand%20Design%20Leiden&amp;query_place_id=ChIJxzjOZLXHxUcROYSwQCXGfWA" target="_blank" rel="noopener noreferrer" aria-label="Kranghand Design op Google Maps: 4,7 uit 5, gebaseerd op 3 beoordelingen">
-          <span class="google-g" aria-hidden="true">G</span><span class="rating-stars" aria-hidden="true">★</span><strong>4,7/5</strong><span class="rating-count">3 Google-reviews</span>
-        </a>
-      <a class="btn nav-cta" href="#contact">Bespreek uw project <span aria-hidden="true">↗</span></a>
+      <a class="btn" href="#contact">Bespreek uw project <span aria-hidden="true">↗</span></a>
     </div>
   </header>
+
   <main>
     <section class="hero" aria-labelledby="hero-title" style="padding:0">
       <div class="hero-copy">
         <div class="eyebrow">KRANGHAND DESIGN / LEIDEN</div>
         <h1 id="hero-title">Renovatie &amp; verbouwing in Leiden</h1>
-        <p class="lead">Een vernieuwd interieur dat niet alleen mooi is, maar écht bij uw leven past. Van het eerste ontwerp en de materiaalkeuze tot de uitvoering en hoogwaardige afwerking.</p>
-        <div class="hero-actions"><a href="#contact" class="btn">Plan een kennismakingsgesprek <span aria-hidden="true">↗</span></a><a href="#projecten" class="line-link">Bekijk onze projecten</a></div>
+        <p class="lead">Een vernieuwd interieur dat niet alleen mooi is, maar écht bij uw leven past. Van het eerste ontwerp en de materiaalkeuze tot de uitvoering en hoogwaardige afwerking: Kranghand Design begeleidt complete binnenrenovaties met oog voor detail.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn">Plan een kennismakingsgesprek <span aria-hidden="true">↗</span></a>
+          <a href="https://kranghanddesign.com/nl/portfolio/" class="btn btn-ghost">Bekijk projecten</a>
+          <a class="google-link" href="https://www.google.com/maps/search/?api=1&amp;query=Kranghand%20Design%20Leiden&amp;query_place_id=ChIJxzjOZLXHxUcROYSwQCXGfWA" target="_blank" rel="noopener noreferrer" aria-label="Bekijk Google reviews van Kranghand Design"><span class="g" aria-hidden="true">G</span><span class="stars" aria-hidden="true">★★★★★</span><span>4,8 uit 5 op Google</span></a>
+        </div>
       </div>
       <div class="hero-img" id="project-slider" aria-label="Projectfoto's van Kranghand Design">
         <div class="hero-slider">
-          <div class="hero-slide active" aria-hidden="false"><img src="https://kranghanddesign.com/assets/images/projects/41/41-river-garden-leiden-1vpbj9.jpg" alt="Woningtransformatie en interieurontwerp in Leiden" fetchpriority="high"></div>
-          <div class="hero-slide" aria-hidden="true"><img src="https://kranghanddesign.com/assets/images/projects/64/64-a-hotel-chic-and-welness-villa-blended-with-nature-1xorsm.jpeg" alt="Hotel-chique slaapkamer met vernieuwde badkamer en hammam"></div>
-          <div class="hero-slide" aria-hidden="true"><img src="https://kranghanddesign.com/assets/images/projects/54/54-maisonette-with-roof-terrace-scheveningen-mayb68.jpg" alt="Gerenoveerde maisonette met eigentijdse keuken"></div>
+          <div class="hero-slide active" aria-hidden="false"><img src="https://kranghanddesign.com/assets/images/projects/41/41-river-garden-leiden-1vpbj9.jpg" alt="Woningtransformatie in Leiden met warm en modern interieur" fetchpriority="high"></div>
+          <div class="hero-slide" aria-hidden="true"><img src="https://kranghanddesign.com/assets/images/projects/64/64-a-hotel-chic-and-welness-villa-blended-with-nature-1xorsm.jpeg" alt="Hotel-chique slaapkamer, badkamer en hammam"></div>
+          <div class="hero-slide" aria-hidden="true"><img src="https://kranghanddesign.com/assets/images/projects/54/54-maisonette-with-roof-terrace-scheveningen-mayb68.jpg" alt="Complete metamorfose van een maisonette uit 1905"></div>
         </div>
-        <span class="photo-credit">REALISATIES · KRANGHAND DESIGN</span>
+        <span class="photo-credit">PROJECTEN · KRANGHAND DESIGN</span>
         <span class="slider-status" aria-live="off"><span id="slide-current">01</span> / 03</span>
-        <div class="slider-controls"><button type="button" id="slider-prev" aria-label="Vorige projectfoto"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 5-7 7 7 7"></path></svg></button><button type="button" id="slider-next" aria-label="Volgende projectfoto"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 5 7 7-7 7"></path></svg></button></div>
+        <div class="slider-controls">
+          <button type="button" id="slider-prev" aria-label="Vorige projectfoto"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 5-7 7 7 7"></path></svg></button>
+          <button type="button" id="slider-next" aria-label="Volgende projectfoto"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 5 7 7-7 7"></path></svg></button>
+        </div>
       </div>
     </section>
-    <div class="facts"><div class="wrap fact-inner"><div class="fact"><span class="mark" aria-hidden="true">✓</span> Complete binnenrenovaties</div><div class="fact"><span class="mark" aria-hidden="true">✓</span> Hoogwaardige materialen &amp; afwerking</div><div class="fact"><span class="mark" aria-hidden="true">✓</span> Van ontwerp tot oplevering</div></div></div>
-    <section class="statement"><div class="wrap split"><div class="text"><div class="eyebrow">MEER DAN ALLEEN VERBOUWEN</div><h2>Een goed renovatieplan begint met de manier waarop u wilt wonen.</h2><p class="lead">Een woningrenovatie is hét moment om uw huis slimmer, comfortabeler en mooier in te richten.</p><p>Bij Kranghand Design combineren we interieurontwerp met de organisatie van complete interne renovatiewerkzaamheden. We kijken niet alleen naar nieuwe vloeren, wanden of een badkamer, maar naar de samenhang tussen indeling, licht, materialen, opbergruimte en dagelijks gebruik.</p><p>U krijgt hulp bij de keuzes die vooraf gemaakt moeten worden én begeleiding bij het realiseren van het plan. Zo groeien ontwerp en uitvoering naar één doordacht eindresultaat.</p><a class="line-link" href="https://kranghanddesign.com/nl/work-with-me">Ontdek onze werkwijze</a></div><div class="media"><img src="https://kranghanddesign.com/assets/images/projects/41/41-river-garden-leiden-6wp54i.jpg" loading="lazy" alt="Warm loftinterieur in Leiden, Kranghand Design, met haard en maatwerk"></div></div></section>
+
+    <div class="facts"><div class="wrap fact-inner">
+      <div class="fact"><span class="mark">1</span><span>Interieurontwerp én renovatiebegeleiding</span></div>
+      <div class="fact"><span class="mark">2</span><span>Hoogwaardige afwerking &amp; materiaalkeuze</span></div>
+      <div class="fact"><span class="mark">3</span><span>Gevestigd in Leiden, met lokale projectervaring</span></div>
+    </div></div>
+
+    <section class="statement"><div class="wrap split"><div class="text"><div class="eyebrow">RENOVATIE MET VISIE</div><h2>Niet zomaar verbouwen, maar ruimtes slim transformeren.</h2><p>Kranghand Design combineert interieurontwerp met praktische renovatiebegeleiding. Dat betekent één helder concept voor de sfeer en indeling van uw woning, én aandacht voor de uitvoerbaarheid, planning en afwerking van het project.</p><p>Deze aanpak is vooral geschikt wanneer u méér wilt dan een standaard renovatie: een woning die comfortabeler, logischer ingedeeld en esthetisch sterker wordt.</p><a class="line-link" href="https://kranghanddesign.com/nl/work-with-me">Ontdek onze werkwijze</a></div><div class="media"><img src="https://kranghanddesign.com/assets/images/projects/41/41-river-garden-leiden-6wp54i.jpg" loading="lazy" alt="Warm loftinterieur in Leiden met haard en maatwerk"></div></div></section>
+
     <section class="services" id="diensten"><div class="wrap"><div class="sectionhead"><div><div class="eyebrow">WAT WE VOOR U KUNNEN DOEN</div><h2>Uw woning renoveren, van plan tot afwerking.</h2></div><p class="muted">Elke verbouwing is anders. We stemmen de werkzaamheden af op de bestaande woning, uw wensen en de gekozen aanpak.</p></div><div class="cards">
       <article class="service"><span class="n">01 / ONTWERP</span><div><h3>Interieurontwerp &amp; nieuwe indeling</h3><p>Slimmere plattegronden, 3D-visualisaties en technische tekeningen als basis voor een goed georganiseerde verbouwing.</p></div></article>
       <article class="service"><span class="n">02 / RENOVATIE</span><div><h3>Complete binnenrenovatie</h3><p>Van de vernieuwing van woonruimtes tot de inrichting van keukens, badkamers, slaapkamers en andere binnenruimtes.</p></div></article>
@@ -187,11 +213,13 @@
       <article class="service"><span class="n">05 / LOGISTIEK</span><div><h3>Bestellen &amp; leveren</h3><p>Ondersteuning bij het bestellen van geselecteerde materialen en het organiseren van de levering op locatie.</p></div></article>
       <article class="service"><span class="n">06 / BEGELEIDING</span><div><h3>Afstemming tijdens de uitvoering</h3><p>Coördinatie met uitvoerende vakmensen en leveranciers, controle van ontwerpdetails en begeleiding tijdens de renovatie.</p></div></article>
     </div></div></section>
-    <section class="portfolio" id="projecten"><div class="wrap"><div class="sectionhead"><div><div class="eyebrow">GESELECTEERD WERK</div><h2>Ruimtes met aandacht voor elk detail.</h2></div><a class="line-link" href="https://kranghanddesign.com/nl/portfolio/">Bekijk alle projecten</a></div><div class="projects">
+
+    <section id="projecten"><div class="wrap"><div class="sectionhead"><div><div class="eyebrow">GESELECTEERD WERK</div><h2>Ruimtes met aandacht voor elk detail.</h2></div><a class="line-link" href="https://kranghanddesign.com/nl/portfolio/">Bekijk alle projecten</a></div><div class="projects">
       <article class="project"><a href="https://kranghanddesign.com/nl/portfolio/river-garden-leiden"><div class="imgcrop"><img src="https://kranghanddesign.com/assets/images/projects/41/41-river-garden-leiden-1vpbj9.jpg" loading="lazy" alt="Warm loft aan het water in Leiden"></div><h3>Warm loft aan het water</h3></a><small>Leiden · Woningtransformatie en interieurontwerp</small><a class="line-link" href="https://kranghanddesign.com/nl/portfolio/river-garden-leiden">Bekijk het project</a></article>
       <article class="project"><a href="https://kranghanddesign.com/nl/portfolio/a-hotel-chic-and-welness-villa-blended-with-nature"><div class="imgcrop"><img src="https://kranghanddesign.com/assets/images/projects/64/64-a-hotel-chic-and-welness-villa-blended-with-nature-1xorsm.jpeg" loading="lazy" alt="Hotel-chique slaapkamer in project met badkamer en hammam"></div><h3>Slaapkamer, badkamer &amp; hammam</h3></a><small>Ouderkerk aan de Amstel · Full-service project</small><a class="line-link" href="https://kranghanddesign.com/nl/portfolio/a-hotel-chic-and-welness-villa-blended-with-nature">Bekijk het project</a></article>
       <article class="project"><a href="https://kranghanddesign.com/nl/portfolio/maisonette-with-roof-terrace-scheveningen"><div class="imgcrop"><img src="https://kranghanddesign.com/assets/images/projects/54/54-maisonette-with-roof-terrace-scheveningen-mayb68.jpg" loading="lazy" alt="Keuken met zwarte details in karakteristieke maisonette uit 1905"></div><h3>Maisonette uit 1905</h3></a><small>Scheveningen · Complete metamorfose</small><a class="line-link" href="https://kranghanddesign.com/nl/portfolio/maisonette-with-roof-terrace-scheveningen">Bekijk het project</a></article>
     </div></div></section>
+
     <section class="process" id="werkwijze"><div class="wrap"><div class="eyebrow">HELDER PROCES</div><h2>Van eerste idee tot een<br>nieuw interieur.</h2><p class="muted">De exacte invulling hangt af van de omvang van uw renovatie en de afspraken over ontwerp en uitvoering.</p><div class="steps">
       <div class="step"><div class="n">01</div><h3>Kennismaking</h3><p>We bespreken uw woning, wensen, planning en de werkzaamheden die u wilt laten uitvoeren.</p></div>
       <div class="step"><div class="n">02</div><h3>Ontwerp &amp; voorbereiding</h3><p>We werken de indeling, uitstraling en benodigde technische details uit.</p></div>
@@ -199,12 +227,20 @@
       <div class="step"><div class="n">04</div><h3>Uitvoering</h3><p>De renovatiewerkzaamheden worden uitgevoerd en afgestemd op het goedgekeurde ontwerp.</p></div>
       <div class="step"><div class="n">05</div><h3>Afwerking &amp; oplevering</h3><p>We besteden aandacht aan de laatste details en aan een samenhangend eindresultaat.</p></div>
     </div></div></section>
+
     <section><div class="wrap reason-grid"><div><div class="eyebrow">DE MEERWAARDE VAN KRANGHAND DESIGN</div><h2>Een verbouwing die verder kijkt dan de afwerking.</h2><div class="reasons">
       <div class="reason"><h3>Ontwerp én uitvoering</h3><p>Functionele keuzes en renovatiewerkzaamheden worden in samenhang voorbereid.</p></div>
       <div class="reason"><h3>Oog voor details</h3><p>Materialen, licht, maatwerk en afwerking vormen samen één interieur.</p></div>
       <div class="reason"><h3>Persoonlijke begeleiding</h3><p>Nadia blijft betrokken bij keuzes en belangrijke uitvoeringsmomenten.</p></div>
       <div class="reason"><h3>Lokale basis</h3><p>Kranghand Design is gevestigd in Leiden en heeft projecten in de stad gerealiseerd.</p></div>
     </div></div><aside class="quote-box"><div class="eyebrow">ERVARINGEN VAN KLANTEN</div><p>Een goed ontwerp helpt om keuzes te maken die passen bij het huis én bij de mensen die er wonen.</p><small>Bekijk de ervaringen met interieurontwerp, materiaaladvies en de realisatie van projecten.</small><p style="margin:25px 0 0"><a class="line-link" href="https://kranghanddesign.com/nl/reviews/">Lees klantbeoordelingen</a></p></aside></div></section>
+
+    <section class="reviews" id="reviews"><div class="wrap"><div class="sectionhead"><div><div class="eyebrow">REVIEWS OP DE WEBSITE</div><h2>Wat klanten vertellen over Nadia en haar aanpak.</h2></div><a class="line-link" href="https://kranghanddesign.com/nl/reviews/">Bekijk alle reviews</a></div><div class="reviews-grid">
+      <article class="review-card"><div class="stars" aria-hidden="true">★★★★★</div><p>“Nadia helped us to structure our wishes and come up with the design we love. She also has extensive knowledge about where we could buy materials and items, necessary for renovation.”</p><small>Denis &amp; Natalia T. · Ouderkerk aan de Amstel</small><a class="line-link" href="https://kranghanddesign.com/nl/reviews/reviews/denis-natalia-t">Lees deze review</a></article>
+      <article class="review-card"><div class="stars" aria-hidden="true">★★★★★</div><p>“Nadia’s voortreffelijke smaak en haar vermogen om moeiteloos met ruimte en kleuren te werken, hebben mijn stylingervaring werkelijk naar een hoger niveau getild.”</p><small>E. van Geest · Voorburg</small><a class="line-link" href="https://kranghanddesign.com/nl/reviews/reviews/e.-van-geest">Lees deze review</a></article>
+      <article class="review-card"><div class="stars" aria-hidden="true">★★★★★</div><p>“We zijn erg goed en snel geholpen door Nadia. Op een heel fijne manier heeft ze ons geholpen met de indeling, 3d visualisatie en realisatie.”</p><small>Nahid &amp; Pegha · Leiden</small><a class="line-link" href="https://kranghanddesign.com/nl/reviews/reviews/nahid-pegha">Lees deze review</a></article>
+    </div></div></section>
+
     <section class="faq" id="vragen"><div class="wrap faq-grid"><div><div class="eyebrow">GOED OM TE WETEN</div><h2>Veelgestelde vragen over renovatie in Leiden.</h2><p class="muted">Staat uw vraag er niet tussen? Beschrijf uw woning en plannen, dan bespreken we de mogelijkheden.</p><a class="line-link" href="#contact">Stel uw vraag aan Nadia</a></div><div>
       <details><summary>Wat valt onder een complete binnenrenovatie?</summary><p>Dat hangt af van de woning en uw wensen. Denk aan de vernieuwing en herindeling van binnenruimtes, de keuze van afwerkingen, keukens, badkamers en maatwerk, plus de voorbereiding en begeleiding van de uitvoering. Welke werkzaamheden precies inbegrepen zijn, leggen we vast in een projectvoorstel.</p></details>
       <details><summary>Kan ik ook hulp krijgen met materialen en levering?</summary><p>Ja. Kranghand Design ondersteunt bij het kiezen van passende materialen en kan het bestellen en de levering van geselecteerde producten organiseren.</p></details>
@@ -213,47 +249,74 @@
       <details><summary>Werkt Kranghand Design alleen in Leiden?</summary><p>Kranghand Design is gevestigd in Leiden en heeft ook projecten buiten de stad uitgevoerd. Neem contact op om te bespreken of uw locatie binnen het werkgebied valt.</p></details>
       <details><summary>Kan ik eerst mijn plannen vrijblijvend bespreken?</summary><p>Ja. Via het contactformulier kunt u uw ideeën delen en een kennismakingsgesprek aanvragen. Foto's en een plattegrond helpen bij de eerste beoordeling van uw wensen.</p></details>
     </div></div></section>
-    <section class="cta contact-section" id="contact" aria-labelledby="contact-heading">
-      <div class="wrap">
-        <div class="contact-intro">
-          <div class="eyebrow">KLAAR VOOR DE VOLGENDE STAP?</div>
-          <h2 id="contact-heading">Vertel ons over uw renovatieplannen.</h2>
-          <p>Wilt u uw woning in Leiden laten renoveren? Laat een bericht achter. Nadia bespreekt graag uw ideeën en de mogelijkheden.</p>
-        </div>
-        <div class="contact-layout">
-          <div>
-            <!-- Static preview only. On MODX replace with the existing SendIt contact form chunk. -->
-            <form class="contact-form" id="demo-contact-form" method="post" enctype="multipart/form-data" aria-label="Renovatie aanvraag">
-              <div class="field"><label for="contact-name">Uw naam *</label><input id="contact-name" name="name" autocomplete="name" required></div>
-              <div class="field"><label for="contact-phone">Telefoonnummer</label><input id="contact-phone" name="phone" type="tel" autocomplete="tel"></div>
-              <div class="field wide"><label for="contact-email">E-mailadres *</label><input id="contact-email" name="email" type="email" autocomplete="email" required></div>
-              <div class="field wide"><label for="contact-message">Vertel ons over uw renovatie *</label><textarea id="contact-message" name="message" placeholder="Wat wilt u vernieuwen, in welke plaats, en wanneer?" required></textarea></div>
-              <div class="field wide"><label for="contact-file">Foto's of plattegrond (optioneel)</label><input id="contact-file" name="attachment[]" type="file" accept="image/*,.pdf" multiple></div>
-              <label class="privacy-line"><input type="checkbox" id="privacy-consent" required><span>Ik ga ermee akkoord dat mijn gegevens worden gebruikt om contact op te nemen over mijn aanvraag. <a href="https://kranghanddesign.com/nl/privacy-policy" target="_blank" rel="noopener noreferrer">Privacyverklaring</a></span></label>
-              <input type="text" name="org" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-100vw;width:1px;height:1px;opacity:0">
-              <div class="form-actions"><button type="submit" class="btn">Verstuur mijn aanvraag <span aria-hidden="true">↗</span></button><a href="https://kranghanddesign.com/nl/contact" class="line-link">Contact op de hoofdwebsite</a></div>
-              <div class="demo-notice" id="demo-form-notice" role="status" hidden>Dit is een ontwerpversie: het formulier verstuurt hier geen berichten. Gebruik het <a href="https://kranghanddesign.com/nl/contact">contactformulier op de hoofdwebsite</a>. Na integratie met MODX koppelen we hier de bestaande SendIt-verwerking.</div>
-            </form>
-          </div>
-          <aside class="map-panel" aria-label="Adres Kranghand Design">
-            <div class="map-frame" id="map-frame">
-              <div class="map-consent" id="map-consent">
-                <svg class="map-icon" viewBox="0 0 24 24" fill="none" stroke="#3d3d3d" stroke-width="1.5" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>
-                <p>De Google-kaart wordt pas geladen als u daarvoor kiest. Google kan dan cookies of andere gegevens verwerken.</p>
-                <button class="btn" type="button" id="load-map">Kaart laden</button>
-              </div>
-            </div>
-            <div class="map-info">
-              <h3>Kranghand Design · Leiden</h3>
-              <p>Rijndijk 104<br>2331 AJ Leiden · Nederland</p>
-              <p><a href="mailto:info@kranghanddesign.com">info@kranghanddesign.com</a><br><a href="tel:+31615092103">+31 6 150 92 103</a></p>
-              <a href="https://www.google.com/maps/search/?api=1&amp;query=Kranghand%20Design%20Leiden&amp;query_place_id=ChIJxzjOZLXHxUcROYSwQCXGfWA" target="_blank" rel="noopener noreferrer" class="line-link">Bekijk adres en route in Google Maps ↗</a>
-            </div>
-          </aside>
-        </div>
-      </div>
-    </section>
+
+    <section class="contact-dark" id="contact"><div class="wrap contact-grid"><div class="contact-panel"><div class="eyebrow">KLAAR VOOR DE VOLGENDE STAP?</div><h2>Vertel ons over uw renovatieplannen.</h2>
+      <form class="contact-form" id="demo-contact-form" method="post" enctype="multipart/form-data" aria-label="Renovatie aanvraag">
+        <div class="field"><label for="contact-name">Uw naam *</label><input id="contact-name" name="name" autocomplete="name" required></div>
+        <div class="field"><label for="contact-phone">Telefoonnummer</label><input id="contact-phone" name="phone" type="tel" autocomplete="tel"></div>
+        <div class="field wide"><label for="contact-email">E-mailadres *</label><input id="contact-email" name="email" type="email" autocomplete="email" required></div>
+        <div class="field wide"><label for="contact-message">Vertel ons over uw renovatie *</label><textarea id="contact-message" name="message" placeholder="Wat wilt u vernieuwen, in welke plaats, en wanneer?" required></textarea></div>
+        <div class="field wide"><label for="contact-file">Foto's of plattegrond (optioneel)</label><input id="contact-file" name="attachment[]" type="file" accept="image/*,.pdf" multiple></div>
+        <label class="privacy-line"><input type="checkbox" id="privacy-consent" required><span>Ik ga ermee akkoord dat mijn gegevens worden gebruikt om contact op te nemen over mijn aanvraag. <a href="https://kranghanddesign.com/nl/privacy-policy" target="_blank" rel="noopener noreferrer">Privacyverklaring</a></span></label>
+        <input type="text" name="org" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-100vw;width:1px;height:1px;opacity:0">
+        <div class="form-actions"><button type="submit" class="btn">Verstuur mijn aanvraag <span aria-hidden="true">↗</span></button></div>
+        <div class="demo-notice" id="demo-form-notice" role="status" hidden>Dit is alleen een visueel voorbeeld. Het formulier verstuurt hier geen berichten. Op de definitieve MODX-pagina wordt de bestaande SendIt-verwerking aangesloten.</div>
+      </form>
+    </div><aside class="nadia-photo" aria-label="Nadia Kranghand"><img src="https://kranghanddesign.com/assets/images/nadia120.webp" alt="Nadia Kranghand, interieurontwerper"><div class="nadia-badge"><small>Over Nadia</small><strong>Your space is my inspiration</strong><span>Wereldse ontwerpvisie, praktische renovatie-ervaring en een persoonlijke benadering bij elk project.</span></div></aside></div></section>
+
+    <section class="full-map" aria-label="Kaart van Kranghand Design in Leiden"><div class="map-hero"><iframe title="Google Maps kaart: Kranghand Design, Rijndijk 104, Leiden" src="https://www.google.com/maps?q=Rijndijk%20104%2C%202331%20AJ%20Leiden%2C%20Nederland&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><div class="map-overlay"><strong>Kranghand Design</strong><br>Rijndijk 104 · 2331 AJ Leiden<br><a class="line-link" href="https://www.google.com/maps/search/?api=1&amp;query=Kranghand%20Design%20Leiden&amp;query_place_id=ChIJxzjOZLXHxUcROYSwQCXGfWA" target="_blank" rel="noopener noreferrer">Route bekijken ↗</a></div></div></section>
   </main>
+
+  <footer>
+    <div class="wrap foot-grid">
+      <div class="foot-col">
+        <a class="brand" href="https://kranghanddesign.com/nl/" aria-label="Kranghand Design website home">
+          <span class="brand-symbol"><img src="https://kranghanddesign.com/favicon.svg" alt="Kranghand Design logo"></span>
+          <span class="brand-copy">KRANGHAND DESIGN<small>INTERIEURONTWERP · LEIDEN</small></span>
+        </a>
+        <p class="muted" style="margin-top:16px">Interieurontwerp, renovatiebegeleiding en hoogwaardige binnenrenovatie vanuit Leiden.</p>
+              </div>
+      <div class="foot-col">
+        <h3>Pagina's</h3>
+        <a href="https://kranghanddesign.com/nl/">Startpagina</a>
+        <a href="https://kranghanddesign.com/nl/work-with-me">Werkwijze &amp; tarieven</a>
+        <a href="https://kranghanddesign.com/nl/portfolio/">Projects</a>
+        <a href="https://kranghanddesign.com/nl/beforeafter">Voor / Na</a>
+        <a href="https://kranghanddesign.com/nl/about">Over Nadia</a>
+      </div>
+      <div class="foot-col">
+        <h3>Meer links</h3>
+        <a href="https://kranghanddesign.com/nl/prices">Prijzen</a>
+        <a href="https://kranghanddesign.com/nl/reviews/">Reviews</a>
+        <a href="https://kranghanddesign.com/nl/blog">Blog</a>
+        <a href="https://kranghanddesign.com/nl/contact">Contact</a>
+        <a href="https://kranghanddesign.com/nl/privacy-policy">Privacy Policy</a>
+      </div>
+      <div class="foot-col">
+        <h3>Contact</h3>
+        <p>Rijndijk 104<br>2331 AJ Leiden · Nederland</p>
+        <a href="tel:+31615092103">+31 6 150 92 103</a>
+        <a href="mailto:info@kranghanddesign.com">info@kranghanddesign.com</a>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=Kranghand%20Design%20Leiden&amp;query_place_id=ChIJxzjOZLXHxUcROYSwQCXGfWA" target="_blank" rel="noopener noreferrer">Google Business profiel ↗</a>
+      </div>
+    </div>
+    <nav class="wrap socials-centered" aria-label="Kranghand Design op social media">
+      <a href="https://www.facebook.com/kraghand.design/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.4 21v-8h2.7l.4-3.3h-3.1V7.6c0-1 .3-1.6 1.7-1.6h1.6V3.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.4H7.4V13H10v8h3.4Z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/kranghand.design/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.8" cy="6.2" r="1" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <a href="https://www.youtube.com/channel/UCvIDUdndT-b7QzG-gkt9Bnw" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="m10 9 5 3-5 3Z" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <a href="https://wa.me/31615092103" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.6 11.8a8.6 8.6 0 0 1-12.8 7.5L3 20.6l1.4-4.5a8.6 8.6 0 1 1 16.2-4.3Z"/><path d="M8.4 8.3c.3-.4.6-.5.9 0l1 1.4c.2.3.1.5-.2.8l-.5.5c.7 1.6 1.9 2.6 3.5 3.4l.5-.7c.2-.3.5-.4.8-.2l1.6.8c.4.2.5.6.2 1-.6 1-1.5 1.4-2.5 1-3-1.2-5-3.1-6-6-.2-.7 0-1.4.7-2Z"/></svg>
+      </a>
+    </nav>
+    <div class="wrap subfooter"><span>© 2026 kranghanddesign.com · Alle rechten voorbehouden</span><span>Made by <a href="https://web86.site/" target="_blank" rel="noopener noreferrer">web86</a></span></div>
+  </footer>
+
   <script>
     (() => {
       'use strict';
@@ -262,6 +325,7 @@
       let active = 0;
       let timer = null;
       const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
       function showSlide(index) {
         if (!slides.length) return;
         active = (index + slides.length) % slides.length;
@@ -272,49 +336,36 @@
         const current = document.getElementById('slide-current');
         if (current) current.textContent = String(active + 1).padStart(2, '0');
       }
-      function stop(){ if (timer) window.clearInterval(timer); timer = null; }
-      function start(){
-        stop();
+      function stopSlider() { if (timer) window.clearInterval(timer); timer = null; }
+      function startSlider() {
+        stopSlider();
         if (!reduceMotion && slides.length > 1 && !document.hidden) {
           timer = window.setInterval(() => showSlide(active + 1), 6500);
         }
       }
-      document.getElementById('slider-prev')?.addEventListener('click', () => { showSlide(active - 1); start(); });
-      document.getElementById('slider-next')?.addEventListener('click', () => { showSlide(active + 1); start(); });
-      slider?.addEventListener('mouseenter', stop);
-      slider?.addEventListener('mouseleave', start);
-      slider?.addEventListener('focusin', stop);
-      slider?.addEventListener('focusout', e => { if (!slider.contains(e.relatedTarget)) start(); });
+      document.getElementById('slider-prev')?.addEventListener('click', () => { showSlide(active - 1); startSlider(); });
+      document.getElementById('slider-next')?.addEventListener('click', () => { showSlide(active + 1); startSlider(); });
+      slider?.addEventListener('mouseenter', stopSlider);
+      slider?.addEventListener('mouseleave', startSlider);
+      slider?.addEventListener('focusin', stopSlider);
+      slider?.addEventListener('focusout', e => { if (!slider.contains(e.relatedTarget)) startSlider(); });
       slider?.addEventListener('keydown', e => {
         if (e.key === 'ArrowLeft') { e.preventDefault(); showSlide(active - 1); }
         if (e.key === 'ArrowRight') { e.preventDefault(); showSlide(active + 1); }
       });
-      document.addEventListener('visibilitychange', () => document.hidden ? stop() : start());
-      start();
+      document.addEventListener('visibilitychange', () => document.hidden ? stopSlider() : startSlider());
+      startSlider();
 
-      // Consent-first map. No Google iframe or third-party request is created until clicked.
-      document.getElementById('load-map')?.addEventListener('click', () => {
-        const frame = document.getElementById('map-frame');
-        if (!frame || frame.querySelector('iframe')) return;
-        const iframe = document.createElement('iframe');
-        iframe.title = 'Google Maps: Kranghand Design, Rijndijk 104, Leiden';
-        iframe.loading = 'lazy';
-        iframe.referrerPolicy = 'no-referrer-when-downgrade';
-        iframe.allowFullscreen = true;
-        iframe.src = 'https://www.google.com/maps?q=Rijndijk%20104%2C%202331%20AJ%20Leiden%2C%20Nederland&output=embed';
-        document.getElementById('map-consent')?.remove();
-        frame.append(iframe);
-      });
-
-      // GitHub Pages static demonstration. Never collect or transmit user-submitted data here.
+      // Static preview only: don't collect or transmit data from the staging form.
       document.getElementById('demo-contact-form')?.addEventListener('submit', event => {
         event.preventDefault();
         const note = document.getElementById('demo-form-notice');
-        if(note){note.hidden=false;note.scrollIntoView({behavior:reduceMotion?'auto':'smooth',block:'nearest'});}
+        if (note) {
+          note.hidden = false;
+          note.scrollIntoView({behavior: reduceMotion ? 'auto' : 'smooth', block: 'nearest'});
+        }
       });
     })();
   </script>
-
-  <footer><div class="wrap foot"><div><a class="brand" href="https://kranghanddesign.com/nl/">KRANGHAND DESIGN</a><p>Rijndijk 104 · 2331 AJ Leiden · Nederland</p></div><div><a href="mailto:info@kranghanddesign.com">info@kranghanddesign.com</a><br><a href="tel:+31615092103">+31 6 150 92 103</a></div><a href="https://kranghanddesign.com/nl/">Terug naar de website ↗</a></div></footer>
 </body>
 </html>
