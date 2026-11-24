@@ -215,6 +215,36 @@
     .comparison-figure:focus-within{outline:3px solid #998a73;outline-offset:4px}
     .comparison-figure figcaption{bottom:14px;left:0;right:0;text-align:center;background:#17171766;pointer-events:none;padding:3px 8px;font-size:11px}
     @media(prefers-reduced-motion:reduce){.comparison-grip::before{animation:none}}
+
+    /* Desktop first-fold composition: keep the three benefit items fully visible. */
+    @media (min-width:1101px) {
+      .hero {
+        min-height:0;
+        height:calc(100vh - 84px - 78px);
+        height:calc(100svh - 84px - 78px);
+      }
+      .hero-img {min-height:0;height:100%}
+      .hero-copy {padding-top:clamp(18px,2.8vh,38px);padding-bottom:clamp(18px,2.8vh,38px)}
+      .facts, .fact-inner {min-height:78px}
+      .fact {min-height:78px;padding:12px 17px;line-height:1.38}
+    }
+    /* Short laptop windows: compact typography before shrinking the photography. */
+    @media (min-width:1101px) and (max-height:820px) {
+      .hero-copy {padding-top:16px;padding-bottom:16px;padding-right:clamp(22px,3vw,45px)}
+      .hero h1 {font-size:clamp(42px,3.7vw,55px);line-height:1.045;margin:11px 0 13px}
+      .hero .lead {font-size:15px;line-height:1.55}
+      .hero-actions {gap:12px;margin-top:18px}
+      .hero-actions .btn {padding:12px 15px;font-size:11px}
+      .google-link {font-size:12px}
+      .facts, .fact-inner {min-height:68px}
+      .fact {min-height:68px;font-size:12px;padding:10px 12px;gap:10px}
+      .hero {height:calc(100vh - 84px - 68px);height:calc(100svh - 84px - 68px)}
+    }
+    /* Very short windows retain natural document flow rather than clipping content. */
+    @media (min-width:1101px) and (max-height:640px) {
+      .hero {height:auto;min-height:490px}
+      .hero-img {min-height:490px}
+    }
   </style>
   <script type="application/ld+json">
   {
